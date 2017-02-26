@@ -1,0 +1,20 @@
+h2 { text-align: center; }
+
+div {
+  background-color: #0000CC;
+  color: #FFF;
+  box-sizing: border-box;
+  
+  width: 48%;
+  display: inline-block;
+  height: 200px;
+  margin: 5px;
+  border: 20px solid #FF00FA;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+	<title>Temple of C++ programming by Markusha Jay Turner.</title>
+  <link rel="stylesheet" href="css/fontface.css">
+   
+	<style>
+    body {background-color:rgb(49, 78, 107); color:#f3db1b; margin: 40px;} /*an internal stylesheet*/
+    pre {border: 2px ridge #FFF; class: prettyprint;}
+  </style>
+  
+  
+  <script src="/home/inessa/Desktop/geany/university/HTML/code-prettify-master/loader/run_prettify.js?lang=css&amp;skin=sunburst"></script>
+  
+  <link href="css/prettify.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="js/prettify.js"></script>
+  
+</head>
+
+
+<body onload="prettyPrint()">
+
+<h1>Temple of Object Oriented Programming in C++ with your host: Markusha Jay Turner.</h1>
+<p>A constructor is a function within a class which carries the same name as the class itself. It gets executed whenever an object from that class is made... It does so, AUTOMATICALLY!</p>
+
+<pre class="prettyprint">
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;string&gt;
+using namespace std;
+
+class myClass{
+public:
+	
+  myClass(){
+  vector&lt;unsigned int&gt terMinator(9);
+    for(auto& toKen : teMinator){
+      cout << "Enter value: "<< endl;
+      cin >> toKen;
+	}
+    for(auto toKen : terMinator){
+      cout << toKen << " ";	
+		}
+};
+
+int main(){
+
+	myClass fireStorm;
+  
+return 0;	
+}
+</pre>
+<p>Here is an interesting example of function overloading!</p>
+
+<pre class="prettyprint">
+#include &lt;iostream&gt;
+using namespace std;
+
+class printData {
+public:
+	
+  void print(int i){
+  cout << "Printing int: " << i << endl;
+  }
+
+  void print(double f){
+  cout << "Printing float: " << f << endl;	
+  }
+
+  void print(char* c){
+  cout << "Printing character: " << c << endl;
+  }
+};
+
+int main(){
+  
+  printData pd;
+		
+  pd.print(5);
+  pd.print(500.2633);
+  pd.print("Hello C++");
+		
+  /*Overload resolution is done by the compiler.*/
+return 0;
+}
+</pre>
+
+<h1>Yo... CSS3 is like candy!</h1>
+<p>To expand beyond "web-safe" fonts in CSS3, use @font-face</p>
+
+<pre class="prettyprint lang-css">
+@font-face{
+  font-family: mySpecialFont;
+  src: url('Turner.ttf');
+}
+
+  /* And style elements like you normally would. */
+  
+h1{ 
+  font-family: mySpecialFont; 
+  color: #FFF; q
+}
+
+</pre>
+<p>To give an idea of what a .css file might look like, here are some pointers...</p>
+<pre class="prettyprint lang-css" >
+h1 {
+  background: rbga (12, 12, 12, 1);
+  font-size: 150%;
+}
+
+header {
+  background: #777;
+  text-align: center;
+}
+
+h1 {
+  color: #FFF;
+}
+
+nav {
+  font-variant: small-caps;
+  font-size: 150%;
+  font-family: Arial, "Times New Roman", serif;
+}
+
+h2 {
+  color: #B1B1B1;
+  background: #00B7EA;
+}
+
+div {
+  height: 50px;
+  width: 75%;
+  background: #FF88FF;
+  /*Display becomes an option because of the custom dimensions for the div element.*/
+  /*div elements are of the display type inline, by default.*/
+  /*Play around with it when inspecting element.*/
+}
+</pre>
+
+<p>When you use an element of display type inline but you set the height and width, then "Display" becomes an interesting option.</p>
+
+
+</body>
+</html>

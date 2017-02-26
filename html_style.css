@@ -1,0 +1,17 @@
+
+h2{color:purple}
+p{color:blue}
+body {background-color:lightgrey}
+#RainbowColors {background:grey}
+#red {background:red}
+#orange {background:orange}
+#yellow {background:yellow}
+#green {background:green}
+#blue {background:blue}
+#indigo {background:indigo}
+#violet {background:violet}
+
+
+.zappy {background:lime; color:yellow}
+
+h1:hover {color:green}

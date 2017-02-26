@@ -1,0 +1,22 @@
+HTML	Text approach + many libraries
+SVG		Graphics approach + few libraries
+
+What a standard html document looks like:
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>All your brains and eyes go here</title>
+	<meta>name="Author" content="Marcus Josephus Turnerus"</meta>
+</head>
+
+<body>
+	<h1>"navel and tits go here"</h1>
+		<p1>This webpage is truely awesome.</p1>
+</body>
+
+</html>
+<!--
+All this is commented out
+-->

@@ -1,0 +1,35 @@
+
+@font-face{
+  font-family: mySpecialFont;
+  src: url("fonts/FFF_Tusj.ttf");
+}
+
+@font-face{
+  font-family: doggyStyle;
+  src: url("fonts/GoodDog.otf");
+}
+
+@font-face{
+  font-family: Exo;
+  src: url("fonts/Exo-ExtraLight.otf");
+}
+
+@font-face{
+  font-family: TypeWriter;
+  src: url("fonts/1942.ttf");
+}
+
+h1{
+  color: rgb(101, 176, 66); 
+  text-align: center; 
+  font-size: 250%; 
+  font-family: mySpecialFont, "Comic Sans MS";
+}
+
+p{
+  color: rgb(207, 230, 178); 
+  text-align: center; 
+  font-size: 130%;
+  font-family: TypeWriter, doggyStyle, "Comic Sans MS";
+}
+
